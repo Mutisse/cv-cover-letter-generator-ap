@@ -1,0 +1,33 @@
+{
+  "name": "cv-cover-letter-generator",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build:android": "eas build -p android --profile production",
+    "build:ios": "eas build -p ios --profile production"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "expo": "latest",
+    "expo-constants": "latest",
+    "expo-file-system": "latest",
+    "expo-print": "latest",
+    "expo-sharing": "latest",
+    "firebase": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-purchases": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest"
+  }
+}
