@@ -1,7 +1,7 @@
 services:
-  - type: static
+  - type: web
     name: cv-cover-letter-generator-ap
-    env: static
-    buildCommand: npm install && npm run build:web
+    runtime: node
+    buildCommand: npm install && npx expo export --platform web
     publishDirectory: dist
-    nodeVersion: 20
+    nodeVersion: 20.18.0
