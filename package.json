@@ -23,12 +23,15 @@
     "expo-sharing": "latest",
     "firebase": "latest",
     "react": "latest",
+    "react-dom": "^19.2.7",
     "react-native": "latest",
     "react-native-purchases": "latest",
     "react-native-safe-area-context": "latest",
-    "react-native-screens": "latest"
+    "react-native-screens": "latest",
+    "react-native-web": "^0.21.2"
   },
   "devDependencies": {
-    "@babel/core": "latest"
+    "@babel/core": "latest",
+    "@expo/webpack-config": "^19.0.1"
   }
 }
